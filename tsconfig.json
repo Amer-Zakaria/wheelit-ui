@@ -1,0 +1,9 @@
+{
+	"extends": "@tsconfig/node21/tsconfig.json",
+	"compilerOptions": {
+		"jsx": "react",
+		"allowImportingTsExtensions": true,
+		"noEmit": true,
+		"lib": ["dom", "dom.iterable", "esnext"]
+	}
+}
