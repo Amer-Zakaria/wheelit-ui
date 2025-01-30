@@ -167,7 +167,6 @@ console.log("rotation: ", rotation)
     setIsSpinning(true);
     setWinner(null);
     
-    const randomDegree = Math.floor(Math.random() * 360) + 1440;
     if (wheelRef.current) {
       // wheelRef.current.style.setProperty('--spin-degree', `${randomDegree}deg`);
     }
